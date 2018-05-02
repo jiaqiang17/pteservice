@@ -1,0 +1,59 @@
+<!--index.wxml-->
+<view class="container">
+  <swiper class="swiper" indicator-dots="true" autoplay="true" interval="5000" duration="1000">    
+    <block wx:for="{{movies}}" wx:for-index="index">    
+      <swiper-item>    
+        <image src="{{item.url}}" class="slide-image" mode="aspectFill" width="355" height="150"/>    
+      </swiper-item>    
+    </block>    
+  </swiper>    
+  
+  <view class="section">
+    <view class="group mt-10">
+      <block wx:for="{{iconType}}">
+        <view class="iconTabView">
+          <icon class="iconTab" type="{{item.icon}}" size="40"/>
+          <text class="iconTabViewText">{{item.text}}</text>
+        </view>
+      </block>
+    </view>
+  </view>
+
+
+
+  <block>
+   <view class="sectionB">
+      <text class="">---最新机经题库---</text>
+    </view>
+  </block>
+
+
+  <block wx:for="{{tikuType}}">
+   <view class="sectionB">
+      <text class="left">{{item.left}}</text>
+      <text class="middle">{{item.middle}}</text>
+      <text class="right">{{item.right}}</text>
+    </view>
+  </block>
+
+  
+
+  <block>
+   <view class="sectionB">
+      <text class="">---真题实战练习---</text>
+    </view>
+  </block>
+
+
+
+   <view class="sectionB">
+      <text class="left">听力读取</text>
+      <text class="middle">考试实战练习：全20题型</text>
+      <text class="right">前往体验</text>
+    </view>
+
+
+</view>
+
+  <!-- 指向微信公众平台首页的web-view -->
+   <!-- <web-view src="https://service.pte.group"></web-view>  -->

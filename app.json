@@ -1,0 +1,51 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "demo",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "学习",
+        "iconPath": "static/imgs/enflares-81.75.png",
+        "selectedIconPath": "static/imgs/enflares-81.75.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "经验",
+        "iconPath": "static/imgs/enflares-81.75.png",
+        "selectedIconPath": "static/imgs/enflares-81.75.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "鸵圈",
+        "iconPath": "static/imgs/enflares-81.75.png",
+        "selectedIconPath": "static/imgs/enflares-81.75.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "我的",
+        "iconPath": "static/imgs/enflares-81.75.png",
+        "selectedIconPath": "static/imgs/enflares-81.75.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "关于",
+        "iconPath": "static/imgs/enflares-81.75.png",
+        "selectedIconPath": "static/imgs/enflares-81.75.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}

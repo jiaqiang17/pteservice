@@ -1,0 +1,13 @@
+.idea
+.git
+
+# Python:
+*.py[cod]
+*.so
+*.egg
+*.egg-info
+*.pyc
+
+node_modules
+
+dist

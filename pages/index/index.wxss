@@ -1,0 +1,71 @@
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200rpx;
+}
+
+.swiper {
+  height: 400rpx;
+  width: 100%;
+}
+.swiper image {
+  height: 100%;
+  width: 100%;
+}
+.iconTab {
+  float: left;
+}
+.iconTabView {
+  float: left;
+  margin:0rpx;
+
+}
+
+.iconTabViewText {
+  position:relative;
+  top:70rpx;
+  left:-75rpx;
+  font-size: 15rpx;
+}
+
+.mt-10 {
+  margin-top: 10rpx;
+}
+
+.sectionB {
+  position: relative;
+  top: 48rpx;
+  margin-top: 15rpx;
+}
+
+.sectionBText {
+  text-align: middle;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.middle {
+  margin: 0 auto;
+}
