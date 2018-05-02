@@ -33,16 +33,14 @@
 }
 .iconTabView {
   float: left;
-  margin:0rpx;
-
+  margin: 20rpx;
+  flex-direction:column;
 }
 
-.iconTabViewText {
-  position:relative;
-  top:70rpx;
-  left:-75rpx;
+ .iconTabViewText {
+   padding-left: 10rpx;
   font-size: 15rpx;
-}
+} 
 
 .mt-10 {
   margin-top: 10rpx;

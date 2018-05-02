@@ -12,8 +12,11 @@
     <view class="group mt-10">
       <block wx:for="{{iconType}}">
         <view class="iconTabView">
-          <icon class="iconTab" type="{{item.icon}}" size="40"/>
-          <text class="iconTabViewText">{{item.text}}</text>
+          <view style='margin-bottom: 10rpx;'>
+            <icon class="iconTab" type="{{item.icon}}" size="40"/>
+          </view>
+          
+          <view class="iconTabViewText">{{item.text}}</view>
         </view>
       </block>
     </view>
@@ -56,4 +59,4 @@
 </view>
 
   <!-- 指向微信公众平台首页的web-view -->
-   <!-- <web-view src="https://service.pte.group"></web-view>  -->
+    <web-view src="https://service.pte.group"></web-view>  
